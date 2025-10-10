@@ -1,0 +1,68 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 70%);;
+    display: flex;
+    border-radius: 10px;
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+   
+}
+.hero-left h2 {
+    color: #090900;
+    font-size: 40px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #eb94dc 0%, #319197 100%);
+    -webkit-background-clip: text; /* chrome, safari */
+    background-clip: text;         /* chuẩn */
+    color: transparent; 
+}
+.hero-left p{
+    color: #171717;
+    font-size: 70px;
+    font-weight: 700;  
+
+}
+.hero-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.hero-hand-icon p{
+    font-size: 120px;
+}
+.hero-hand-icon img{
+    width: 105px;
+}
+.hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 330px;
+    height: 80px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: linear-gradient(360deg, #fce1e1b3 0,#ac34886f 40%);
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+}
+.hero-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-right img {
+    width: 500px;
+    margin-bottom: 0px;
+}   
